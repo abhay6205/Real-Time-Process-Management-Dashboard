@@ -44,7 +44,7 @@ scrollbar = ttk.Scrollbar(table_frame, orient="vertical", command=tree.yview)
 tree.configure(yscrollcommand=scrollbar.set)
 scrollbar.pack(fill=tk.Y, side=tk.RIGHT)
 
-# Graph frame (layout only, graphing logic by Shoaib)
+# Graph frame 
 graph_frame = tk.Frame(content_pane)
 content_pane.add(graph_frame, weight=1)
 
