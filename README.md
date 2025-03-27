@@ -53,9 +53,9 @@ This project was developed by a team of three—Abhay, Harsh, and Shoaib, levera
 
 3. **Run the Application**:
    ```bash
-   python process_monitor.py
+   python osproject.py
    ```
-   Replace `process_monitor.py` with the actual filename of your script.
+   Replace `osproject.py` with the actual filename of your script.
 
 ---
 
