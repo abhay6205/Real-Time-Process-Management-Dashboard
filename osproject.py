@@ -1,7 +1,7 @@
 import psutil
 import time
 
-# Variables (shared, but Abhay initializes process-related ones)
+# Variables 
 refresh_rate = tk.IntVar(value=1000)  # Refresh rate in ms
 
 # Update processes (data collection and process management part)
@@ -22,10 +22,9 @@ def update_processes():
         except (psutil.NoSuchProcess, psutil.AccessDenied):
             continue
     
-    # Pass processes to GUI and graphing (handled by Harsh and Shoaib)
-    # (Abhay's part ends here for data collection)
     
-    # Dynamic refresh (Abhay ensures timing works)
+    
+    # Dynamic refresh
     elapsed = (time.time() - start_time) * 1000
     delay = max(100, refresh_rate.get() - int(elapsed))
     root.after(delay, update_processes)
