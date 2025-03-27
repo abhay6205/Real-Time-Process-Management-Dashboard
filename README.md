@@ -151,6 +151,6 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use, mod
 ### Notes:
 1. **Team Contributions**: Abhay: GUI and process termination, Harsh: Graphing and debugging, Shoaib: Data collection and optimization.
 2. **Timeline**: (March 5–27, 2025).
-3. **GitHub Setup**: Replace `abhy6205` with your actual GitHub username and ensure the repository name matches your project.
+3. **GitHub Setup**: Replace `abhay6205` with your actual GitHub username and ensure the repository name matches your project.
 
 ## THANKS!!
