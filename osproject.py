@@ -1,7 +1,7 @@
 import psutil
 import time
 
-# Variables 
+# Variables ,shared
 refresh_rate = tk.IntVar(value=1000)  # Refresh rate in ms
 
 # Update processes (data collection and process management part)
@@ -22,9 +22,10 @@ def update_processes():
         except (psutil.NoSuchProcess, psutil.AccessDenied):
             continue
     
+    # Pass processes to GUI and graphing (handled by Harsh and Shoaib)
+    # my part ends here for data collection
     
-    
-    # Dynamic refresh
+    # Dynamic refresh (I ensure timing works)
     elapsed = (time.time() - start_time) * 1000
     delay = max(100, refresh_rate.get() - int(elapsed))
     root.after(delay, update_processes)
