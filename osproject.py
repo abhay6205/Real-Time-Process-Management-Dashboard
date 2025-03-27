@@ -1,13 +1,13 @@
 import matplotlib.pyplot as plt
 
-# Graph frame (Shoaib defines axes and graphing logic)
+# Graph frame 
 ax_cpu = fig_cpu.add_subplot(111)
 ax_mem = fig_mem.add_subplot(111)
 
 # Update processes (graphing and optimization part)
 def update_processes():
-    # (Data collection by Abhay)
-    # Treeview update (shared with Harsh for display)
+    
+    # Treeview update 
     tree.delete(*tree.get_children())
     for p in processes:
         tags = []
