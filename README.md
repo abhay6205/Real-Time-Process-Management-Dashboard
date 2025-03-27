@@ -40,8 +40,8 @@ This project was developed by a team of three—Abhay, Harsh, and Shoaib, levera
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/real-time-process-monitoring-dashboard.git
-   cd real-time-process-monitoring-dashboard
+   git clone https://github.com/abhay6205/Real-Time-Process-Management-Dashboard.git
+   cd Real-Time-Process-Management-Dashboard
    ```
 
 2. **Install Dependencies**:
@@ -90,13 +90,13 @@ This project was a collaborative effort by:
 - **Harsh**: Worked on GUI design, layout, and integration of visualizations.
 - **Shoaib**: Handled graphing features, performance optimization, and testing.
 
-**Timeline**: The team developed this dashboard over **9 days**, from March 17, 2025, to March 25, 2025, aligning with the project's completion by March 26, 2025 (based on the current date provided). The development process included planning, coding, debugging, and refining the tool to meet the problem statement's requirements.
+**Timeline**: The team developed this dashboard from March 5, 2025, to March 27, 2025 where the team started maintaining the github portfolio from march 17 onwards. The development process included problem analysis, planning, coding, debugging, and refining the tool to meet the problem statement's requirements.
 
 ---
 
 ## Code Structure
 
-- **`process_monitor.py`**: Main script containing the dashboard implementation.
+- **`osproject.py`**: Main script containing the dashboard implementation.
   - **Imports**: Libraries for process monitoring, GUI, and plotting.
   - **GUI Setup**: Frames, table (`Treeview`), graphs, and controls.
   - **Core Functions**:
@@ -144,13 +144,13 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use, mod
 ## Acknowledgments
 
 - Built with [psutil](https://github.com/giampaolo/psutil), [tkinter](https://docs.python.org/3/library/tkinter.html), and [matplotlib](https://matplotlib.org/).
-- Special thanks to Abhay, Harsh, and Shoaib for their dedication over 9 days to bring this project to life.
+- Special thanks to Abhay, Harsh, and Shoaib for their dedication to bring this project to life.
 
 ---
 
 ### Notes:
-1. **Team Contributions**: I’ve assigned general roles to Abhay, Harsh, and Shoaib based on typical project divisions. Feel free to adjust these to reflect your actual contributions (e.g., "Abhay: GUI and process termination," "Harsh: Graphing and debugging," "Shoaib: Data collection and optimization").
-2. **Timeline**: The dates (March 17–25, 2025) are calculated backward from March 26, 2025 (the current date you provided). Adjust these if your actual timeline differs.
-3. **GitHub Setup**: Replace `yourusername` with your actual GitHub username and ensure the repository name matches your project.
+1. **Team Contributions**: Abhay: GUI and process termination, Harsh: Graphing and debugging, Shoaib: Data collection and optimization.
+2. **Timeline**: (March 5–27, 2025).
+3. **GitHub Setup**: Replace `abhy6205` with your actual GitHub username and ensure the repository name matches your project.
 
-This `README.md` now clearly showcases your team's effort and timeline while maintaining professionalism and clarity. Let me know if you’d like further tweaks!
+## THANKS!!
