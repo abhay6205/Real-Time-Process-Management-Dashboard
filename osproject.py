@@ -1,13 +1,13 @@
 import matplotlib.pyplot as plt
 
-# Graph frame 
+# Graph frame (I define axes and graphing logic)
 ax_cpu = fig_cpu.add_subplot(111)
 ax_mem = fig_mem.add_subplot(111)
 
 # Update processes (graphing and optimization part)
 def update_processes():
-    
-    # Treeview update 
+    # (Abhay collects data)
+    # Treeview update (I and Harsh shared the following code for display)
     tree.delete(*tree.get_children())
     for p in processes:
         tags = []
